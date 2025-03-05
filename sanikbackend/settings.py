@@ -105,7 +105,7 @@ DATABASES = {
         'PASSWORD': 'Diksha2005#',                    # Password
         'HOST': 'rda.cji4e6u40bqt.ap-south-1.rds.amazonaws.com',  # RDS endpoint
         'PORT': '5432',         
-                   # PostgreSQL default port
+         
     }
 }
  
@@ -129,9 +129,7 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
-# Internationalization
-# https://docs.djangoproject.com/en/5.1/topics/i18n/
+ 
 
 LANGUAGE_CODE = 'en-us'
 
@@ -170,7 +168,7 @@ DATA_UPLOAD_MAX_NUMBER_FIELDS = 10000
 import os
 from dotenv import load_dotenv
 
-# Load environment variables from the .env file
+ 
 load_dotenv()
 
  
