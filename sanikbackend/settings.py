@@ -26,9 +26,8 @@ SECRET_KEY = 'django-insecure-jy18ky$u$n+z6wj)_zt8+__^6p5j(t$@5yj#xj45j%yzvrjb!)
 DEBUG = True
 
 # ALLOWED_HOSTS = ['localhost' ]
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', '13.50.91.174' ,'0.0.0.0','13.61.64.189' ,'3.110.136.55' , '13.203.78.165','*']
-
-
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '13.50.91.174' ,'0.0.0.0','43.204.144.192','*']
+ 
 # Application definition
 
 INSTALLED_APPS = [
@@ -149,6 +148,7 @@ CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000','http://13.50.91.174' , 'http://127.0.0.1:5500' , 'https://www.aisseecoaching.com' ,
         'https://aisseecoaching.com' , 'https://www.royaldefenceacademy.com'    , 
 ]
+
 CORS_ALLOW_METHODS = [
     'GET',  
     'POST',
