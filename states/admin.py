@@ -9,7 +9,7 @@ class LocalitiesAdmin(admin.ModelAdmin):
 
 class CitiesAdmin(admin.ModelAdmin):
     list_display = ('id', 'title', 'state')  # Add any other fields you want to display
-
+    list_filter = ('state',)  
 admin.site.register(Cities, CitiesAdmin)
 admin.site.register(State)
  

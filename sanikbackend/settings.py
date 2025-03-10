@@ -47,7 +47,8 @@ INSTALLED_APPS = [
     'homepage' ,
     'states', 
     'courses',
-    'blogsdata',  
+    'blogsdata',
+    'main_url',  
     'news',
     'blogs',
     'newsdata',  
@@ -146,7 +147,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000','http://43.204.144.192' , 'http://127.0.0.1:5500' , 'https://www.aisseecoaching.com' ,
-        'https://aisseecoaching.com' , 'https://www.royaldefenceacademy.com'    , 
+        'https://aisseecoaching.com' , 'https://www.royaldefenceacademy.com'    ,  
 ]
 
 CORS_ALLOW_METHODS = [

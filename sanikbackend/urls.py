@@ -9,10 +9,10 @@ urlpatterns = [
     path('', include('homepage.urls')),  # Include the homepage app's URLs
     path('' , include('states.urls')), 
     path('' , include ('courses.urls')),
-    path('' , include('blogs.urls')) ,
-    # path('' , include('news.urls')) ,
+    path('' , include('blogs.urls')) , 
     path('' , include('blogsdata.urls')),
-    path('' , include('newsdata.urls'))
+    path('' , include('newsdata.urls')) ,
+    path('',include('main_url.urls')),
 
 
 
